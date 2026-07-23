@@ -1,6 +1,6 @@
 import './style.scss';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import PhotoMe2 from '../../assets/me/PhotoMe2.png'
+import PhotoMe2 from '../../assets/me/photoMe2.png'
 import {SecondSquare, ThirdSquare} from '../Squares/Squares';
 
 const About = () => {
