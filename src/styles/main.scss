@@ -1,0 +1,12 @@
+body{
+    background-color: $secondBackground;
+    font-family: "Fira Code";
+    overflow-x: hidden;
+}
+
+.main{
+    background-color: $firstBackground;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: auto;
+}

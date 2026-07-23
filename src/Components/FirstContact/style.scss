@@ -1,0 +1,22 @@
+@import '../../styles/vars.scss';
+
+.line{
+    background-color: $accentColor;
+
+    display: block;
+    width: 1px;
+    height: 190px;
+}
+
+.contact{
+    position: absolute;
+    left: 30px;
+}
+
+.contact-row{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 14px;
+}

@@ -1,0 +1,41 @@
+@import '../../styles/vars.scss';
+
+.project-image{
+    width: 400px;
+    height: 250px;
+}
+
+.project-wrap{
+    border: 1px solid $accentColor;
+    display: inline-flex;
+    flex-direction: column;
+    max-height: fit-content;
+}
+
+.project-stack{
+    color: $accentColor;
+    font-size: 16px;
+    padding: 8px;
+    border-bottom: 1px solid $accentColor;
+    max-width: 400px;
+    line-height: 30px;
+}
+
+.project-block{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.project-title{
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+
+.project-desc{
+    max-width: 290px;
+    font-size: 16px;
+    color: $accentColor;
+} 

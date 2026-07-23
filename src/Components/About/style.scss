@@ -1,0 +1,41 @@
+@import '../../styles/vars.scss';
+
+.about{
+    margin-top: 140px;
+}
+
+.about-wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.about-photo{
+    width: 339px;
+    height: 500px;
+}
+
+.about-line{
+    width: 240px;
+    height: 1px;
+    background-color: $primaryColor;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+.about-text{
+    color: $accentColor;
+    font-size: 16px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    line-height: 25px;
+}

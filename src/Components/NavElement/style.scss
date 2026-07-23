@@ -1,0 +1,17 @@
+@import '../../styles/vars.scss';
+
+.navelem-span{
+    color: $primaryColor;
+}
+
+.navelem-a{
+    font-size: 16px;
+    color: $accentColor;
+    display: flex;
+    gap: 2px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        color: #FFFFFF;
+    }
+}

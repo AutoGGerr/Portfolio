@@ -1,0 +1,73 @@
+@import '../../styles/vars.scss';
+
+
+.quote{
+    margin-top: 110px;
+}
+
+.quote-row{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+.quote-text{
+    border: 1px solid $accentColor;
+    color: $accentColor;
+    display: inline-flex;
+    padding: 24px;
+
+    position: relative;
+    & h4{
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    &::before{
+        content: "";
+
+        position: absolute;
+        background-image: url(../../assets/svg/quote.svg);
+        background-color: $firstBackground;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        top: -10px;
+        left: 15px;
+
+        width: 45px;
+        height: 20px;
+    }
+}
+
+.quote-author{
+    border: 1px solid $accentColor;
+    color: $accentColor;
+    align-self: end;
+    display: inline-flex;
+    border-top: none;
+    padding: 16px;
+
+    position: relative;
+
+    & h4{
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    &::before{
+        content: "";
+
+        position: absolute;
+        background-image: url(../../assets/svg/quote.svg);
+        background-color: $firstBackground;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        top: -10px;
+        right: 15px;
+
+        width: 45px;
+        height: 20px;
+    }
+}

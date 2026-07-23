@@ -1,0 +1,11 @@
+.projects{
+    margin-top: 74px;
+}
+
+.projects-wrap{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 40px;
+    justify-content: space-between;
+}

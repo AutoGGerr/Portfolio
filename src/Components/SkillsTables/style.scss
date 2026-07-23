@@ -1,0 +1,24 @@
+@import '../../styles/vars.scss';
+
+.skills__tables-name{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px;
+    border-bottom: 1px solid $accentColor;
+}
+
+.skills__tables-stack{
+    font-size: 16px;
+    color: $accentColor;
+    padding: 8px;
+    width: 140px;
+}
+
+.skills__tables{
+    border: 1px $accentColor solid;
+    max-height: fit-content;
+}
+
+.wide{
+    width: 200px;
+}

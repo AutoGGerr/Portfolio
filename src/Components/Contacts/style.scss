@@ -1,0 +1,42 @@
+@import '../../styles/vars.scss';
+
+.contacts{
+    margin-top: 112px;
+}
+
+.contacts-text{
+    font-size: 16px;
+    color: $accentColor;
+    width: 500px;
+    line-height: 22px;
+}
+
+.contacts-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__table{
+    border: 1px solid $accentColor;
+}
+
+.contacts__table-text{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.contacts__table-column{
+    border-top: 1px solid $accentColor;
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts__table-item{
+    display: flex;
+    gap: 10px;
+    color: $accentColor;
+}

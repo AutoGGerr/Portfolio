@@ -1,0 +1,15 @@
+@import '../../styles/vars.scss';
+
+.header{
+    padding-top: 32px;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display: flex;
+    gap: 32px;
+}

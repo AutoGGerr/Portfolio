@@ -1,0 +1,32 @@
+[
+    {
+        "image": "https://s6.iimage.su/s/21/gX9dGoUxRilfz7FSOMI21pU4OEEON5UlZlgFfC6vh.png",
+        "stack": "HTML CSS JS FireBase",
+        "projectTitle": "Вёрстка #1",
+        "projectDesc": "Вёрстка Landing Page"
+    },
+    {
+        "image": "https://s6.iimage.su/s/21/gZuQ5oBxnscLcSnFLWYJgr51XRqADECTGuyEwgazq.png",
+        "stack": "HTML CSS JS FireBase/FireStore API",
+        "projectTitle": "Админ-панель",
+        "projectDesc": "Админ-панель, написанная на чистом JS, с применением API Firebase"
+    },
+    {
+        "image": "https://s6.iimage.su/s/21/gwzli10xM6KZlZ5czSHkBcAznDP1QQcwHR0J4KY5H.png",
+        "stack": "HTML CSS JS",
+        "projectTitle": "Вёрстка #2",
+        "projectDesc": "Вёрстка Landing Page"
+    },
+    {
+        "image": "https://s6.iimage.su/s/21/gZuQ5oBxnscLcSnFLWYJgr51XRqADECTGuyEwgazq.png",
+        "stack": "HTML CSS JS FireBase/FireStore API",
+        "projectTitle": "Админ-панель",
+        "projectDesc": "Админ-панель, написанная на чистом JS, с применением API Firebase"
+    },
+    {
+        "image": "https://s6.iimage.su/s/21/gwzli10xM6KZlZ5czSHkBcAznDP1QQcwHR0J4KY5H.png",
+        "stack": "HTML CSS JS",
+        "projectTitle": "Вёрстка #2",
+        "projectDesc": "Вёрстка Landing Page"
+    }
+]
