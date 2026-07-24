@@ -20,10 +20,10 @@ const Info = () => {
                     <div className="info__left-block">
                         <h2 className='info__left-desc'>Реализую любую Вашу идею</h2>
                     </div>
-                    <FirstSquare top="30px" left="-100px"/>   
-                    <ThirdSquare bottom="100px" right="-40px" size="70px"/>
+                    <FirstSquare className="me-square--first" top="30px" left="-100px"/>   
+                    <ThirdSquare className="me-square--first" bottom="100px" right="-40px" size="70px"/>
                 </div>
-                <FourthSquare right="-20px" bottom="200px" size="91px"/>
+                <FourthSquare className="info-square" right="-20px" bottom="200px" size="91px"/>
             </div>
             <Quote className="quote" text="Прежде всего решайте проблему. Затем пишите код." author="- Джон Джонсон"/>
         </main>

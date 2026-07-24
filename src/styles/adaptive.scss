@@ -1,0 +1,36 @@
+@media (max-width: 1450px) {
+    .contact{
+        display: none;
+    }
+    .info-square{
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+    .main{
+        padding: 10px;
+    }
+
+    .projects-wrap{
+        
+    }
+}
+
+@media (max-width: 1028px) {
+    .me-square--first{
+        display: none;
+    }
+}
+
+@media (max-width: 925px) {
+    .info-wrapper{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 840px) {
+    .header__nav{
+        display: none;
+    }
+}
