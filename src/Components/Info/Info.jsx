@@ -1,19 +1,44 @@
 import Button from '../Btn/Button'
 import PhotoMe from '../../assets/me/photoMe.png'
+import PopupFb from '../PopupFb/PopupFb';
 import {SecondSquare, FirstSquare, ThirdSquare, FourthSquare} from '../Squares/Squares';
 import Quote from '../Quote/Quote'
 
+import { useState, useRef } from 'react';
 import './style.scss'
 
 
 const Info = () => {
+    
+    const [isOpen, setIsOpen] = useState(false)
+
+    const buttonColored = useRef(false)
+    const buttonRef = useRef(null)
+
+    const closePopup = () => setIsOpen(false)
+
+    const buttonClick = () => {
+        if(!buttonRef.current) return;
+
+        buttonColored.current = !buttonColored.current
+
+        buttonRef.current.style.backgroundColor = buttonColored.current ? '#C778DD' : 'transparent'
+    }
+     
     return(
         <main className='info'>
             <div className="info-wrapper">
                 <div className="info__right">
                     <h1 className='info__right-title'>Дмитрий — <br></br>frontend developer</h1>
                     <p className='info__right-desc'>Создам продающий веб-сайт для бизнеса, сверстаю Ваш макет либо внесу правки в frontend-часть Вашего веб-сервиса.</p>
-                    <Button text="Связаться со мной" w='200px'/>
+                    <div className="popup-wrapper">
+                        <Button ref={buttonRef} className={`popup-openBtn ${isOpen ? 'active' : '' || ''}` } text="Связаться со мной" w='200px' onClick={
+                            () => {setIsOpen(prev => !prev)}
+                            
+                            }/>
+                        <PopupFb className="info-popup" isOpen={isOpen} onClose={closePopup} />
+                    </div>
+
                 </div>
                 <div className="info__left">
                     <img src={PhotoMe} alt="Моё фото" style={{zIndex: 10}} />

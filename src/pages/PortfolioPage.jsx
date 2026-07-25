@@ -1,7 +1,14 @@
-const Portfolio = () => {
+import PageTitle from "../Components/PageTitle/PageTitle";
+import Portfolio from "../Components/Portfolio/Portfolio";
+
+const PortfolioPage = () => {
     return(
-        <h1>Портфолио</h1>
+        <main className="main">
+            <Portfolio />
+        </main>
+            
+
     )
 }
 
-export default Portfolio;
+export default PortfolioPage;

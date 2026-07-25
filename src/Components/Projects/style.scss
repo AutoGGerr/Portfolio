@@ -1,3 +1,5 @@
+@import '../../styles/vars.scss';
+
 .projects{
     margin-top: 74px;
 }
@@ -8,4 +10,20 @@
     grid-template-columns: repeat(3, 400px);
     gap: 40px;
     justify-content: space-between;
+}
+
+.project-sectiontitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-navlink{
+    color: $accentColor;
+    transition: all 0.4s ease-in-out;
+    margin-right: 30px;
+
+    &:hover{
+        color: #FFFFFF;
+    }
 }

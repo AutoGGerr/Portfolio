@@ -2,7 +2,7 @@ import './style.scss';
 
 const Button = (props) => {
     return(
-        <button className="button" style={{width: props.w}}>{props.text}</button>
+        <button ref={props.ref} onClick={props.onClick} className={`button ${props.className || ''}`} style={{...props.style, width: props.w }}>{props.text}</button>
     )
 }
 

@@ -1,0 +1,59 @@
+@import '../../styles/vars.scss';
+
+.popfb{
+    position: absolute;
+    // margin-top: 200px;
+    max-width: 570px;
+    min-height: 342px;
+    padding: 20px;
+    background-color: $firstBackground;
+    border: 1px solid $primaryColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popfb-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.popfg-input{
+    border: 1px solid $accentColor;
+    padding: 8px;
+    outline: none;
+    color: $accentColor;
+
+    &--message{
+        min-height: 120px;
+        resize: none;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;
+    }
+}
+
+.popfb-row{
+    display: flex;
+    gap: 11px;
+}
+
+.popfb-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.popfb-button--close{
+    width: 24px;
+    height: 24px;
+    opacity: 0.7;
+    transition: 0.2s all ease-in-out;
+
+    &:hover{
+        opacity: 0.4;
+    }
+
+}
+

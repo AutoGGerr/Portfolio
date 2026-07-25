@@ -1,7 +1,7 @@
-const Contacts = () => {
+const ContactsPage = () => {
     return(
         <h1>Contacts</h1>
     )
 }
 
-export default Contacts;
+export default ContactsPage;

@@ -60,3 +60,31 @@
     margin-right: 200px;
 }
 
+.info-popup{
+    z-index: 1;
+    top: 50px;
+}
+
+.popup-wrapper{
+    position: relative;
+    gap: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.popup-openBtn {
+
+  background: transparent;
+
+  &:hover {
+    background: #C778DD;
+  }
+
+  &.active {
+    background: #C778DD;
+  }
+
+  &.active:hover {
+    background: #C778DD;
+  }
+}

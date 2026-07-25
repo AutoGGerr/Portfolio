@@ -1,8 +1,8 @@
 @import '../../styles/vars.scss';
 
 .project-image{
-    width: 400px;
-    height: 250px;
+    width: auto;
+    height: 240px;
 }
 
 .project-wrap{
@@ -10,12 +10,15 @@
     display: inline-flex;
     flex-direction: column;
     max-height: fit-content;
+    position: relative;
+    overflow: hidden;
 }
 
 .project-stack{
     color: $accentColor;
     font-size: 16px;
     padding: 8px;
+    border-top: 1px solid $accentColor;
     border-bottom: 1px solid $accentColor;
     max-width: 400px;
     line-height: 30px;
