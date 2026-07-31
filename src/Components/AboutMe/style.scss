@@ -1,0 +1,38 @@
+.aboutme{
+    margin-top: 50px;
+}
+
+.aboutme-row{
+    
+}
+
+.aboutme-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.aboutme-image{
+    width: 440px;
+    height: 630px;
+
+    opacity: 0.9;
+       
+}
+
+.aboutme__image-block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aboutme-line{
+    width: 330px;
+}
+
+.aboutme-skills{
+    display: inline-flex;
+    gap: 20px;
+}
