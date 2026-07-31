@@ -1,30 +1,30 @@
 [
     {
-        "image": "https://s6.iimage.su/s/25/gSMpOqyx0wKS3YmUXUpZkteEwRgMT0qFezU17E9Rf.png",
+        "image": "/projects/project1.png",
         "stack": "HTML/SCSS JavaScript",
         "projectTitle": "Тренировочная вёрстка",
         "projectDesc": "Адаптивная вёрстка макета Landing Page из сообщества Figma на ванильном HTML JS, с использованием препроцессора SCSS/SASS."
     },
     {
-        "image": "https://s6.iimage.su/s/25/gX36cxAxKuJTwATvFX2O79joYMqynLzpO1Hvyawe4.png",
+        "image": "/projects/project2.png",
         "stack": "HTML SCSS JavaScript Firebase/FireStore",
         "projectTitle": "Лендинг + Админ-Панель",
         "projectDesc": "1. Адаптивная ёрстка макета Landing Page из сообщества Figma. ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ2. Реализация Админ-Панели для редактирования содержимого лендинга."
     },
     {
-        "image": "https://s6.iimage.su/s/25/gEe7GZ2xZowAj6osFb5ZWHp1triNfdVgVz6b1T8Qm.png",
+        "image": "/projects/project3.png",
         "stack": "HTML/CSS JavaScript",
         "projectTitle": "Разработка Landing Page",
         "projectDesc": "Разработка адаптивного Landing Page с нуля на ванильном HTML/CSS по просьбе заказщика — диллера автомобилей Mercedes."
     },
     {
-        "image": "https://s6.iimage.su/s/25/g49IyFux8TJaO8TusGWDzjJIT7YkeJj02ksgwWEsT.png",
+        "image": "/projects/project4.png",
         "stack": "React JSX/SCSS TelegramAPI",
         "projectTitle": "Вы смотрите этот проект:)",
         "projectDesc": "Сайт-визика на React с реализацией обратной связи."
     },
     {
-        "image": "https://s6.iimage.su/s/21/gwzli10xM6KZlZ5czSHkBcAznDP1QQcwHR0J4KY5H.png",
+        "image": "/projects/project5.png",
         "stack": "HTML/CSS",
         "projectTitle": "Вёрстка Landing Page",
         "projectDesc": "Адаптивная вёрстка Landing Page заказщику. "
