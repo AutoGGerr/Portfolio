@@ -5,6 +5,9 @@
     .info-square{
         display: none;
     }
+    .projects-wrap{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 1300px) {
@@ -12,9 +15,8 @@
         padding: 10px;
     }
 
-    .projects-wrap{
-        
-    }
+
+    
 }
 
 @media (max-width: 1028px) {
@@ -30,7 +32,44 @@
 }
 
 @media (max-width: 840px) {
+    .contacts-wrapper{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 40px;
+    }
+
+    .projects-wrap{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-wrapper{
+        flex-direction: column
+    }
+
+    .square{
+        display: none;
+    }
+
     .header__nav{
         display: none;
+    }
+}
+
+@media (max-width: 570px){
+    .contacts-text{
+        width: 400px;
+    }
+}
+
+@media (max-width: 430px){
+    .quote{
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .footer-text{
+        flex-direction: column;
+        gap: 80px;
     }
 }
