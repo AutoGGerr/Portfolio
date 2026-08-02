@@ -1,6 +1,6 @@
 import ProjectCard from '../ProjectCard/ProjectCard';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import dataProjects from '../../data/data.json'
+import dataProjects from '../../data/projects.json'
 import Button from '../Btn/Button';
 
 import firstProject from '../../assets/portfolio/project1.png'

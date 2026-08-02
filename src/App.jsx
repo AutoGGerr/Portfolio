@@ -32,6 +32,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactsPage from "./pages/ContactsPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import FirstContact from "./Components/FirstContact/FirstContact";
+import Footer from "./Components/Footer/Footer";
 
 
 
@@ -41,13 +42,15 @@ function App() {
             <main className="main">
                 <FirstContact />
                 <Header />
-                
+
                 <Routes>
                     <Route path="/" element={<MainPage/>} />
                     <Route path="/about" element={<AboutPage/>} />
                     <Route path="/portfolio" element={<PortfolioPage/>} />
                     <Route path="/contacts" element={<ContactsPage/>} />
-                </Routes>                
+                </Routes>
+
+                <Footer />      
             </main>
             
         </>

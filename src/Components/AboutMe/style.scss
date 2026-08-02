@@ -3,7 +3,9 @@
 }
 
 .aboutme-row{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 }
 
 .aboutme-text{
@@ -33,6 +35,12 @@
 }
 
 .aboutme-skills{
-    display: inline-flex;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aboutme-skills--block{
+    display: flex;
+    justify-content: space-between;
 }

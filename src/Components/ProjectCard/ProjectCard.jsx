@@ -1,11 +1,8 @@
 import './style.scss';
 import Button from '../Btn/Button';
-import data from '../../data/data.json'
+import projectData from '../../data/projects.json'
 
 const ProjectCard = ({data}) => {
-    console.log(data);
-    
-    
 
     return(
         <div className='project-wrap'>

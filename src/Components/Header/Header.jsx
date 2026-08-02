@@ -14,7 +14,6 @@ const Header = () => {
                     <NavElem text="главная" route="/" className='nav-elem'/>
                     <NavElem text="портфолио" route="/portfolio" className='nav-elem'/>
                     <NavElem text="обо мне" route="/about" className='nav-elem'/>
-                    <NavElem text="контакты" route="/contacts" className='nav-elem'/>
                 </nav>
 
             </div>
