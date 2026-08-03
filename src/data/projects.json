@@ -28,6 +28,12 @@
         "stack": "HTML/CSS",
         "projectTitle": "Вёрстка Landing Page",
         "projectDesc": "Адаптивная вёрстка Landing Page заказщику. "
+    },
+    {
+        "image": "/projects/project6.png",
+        "stack": "HTML/CSS",
+        "projectTitle": "Вёрстка Landing Page",
+        "projectDesc": "Адаптивная вёрстка Landing Page заказщику. "
     }
 ]
 
