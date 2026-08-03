@@ -9,12 +9,13 @@ import './style.scss'
 
 
 const Info = () => {
-    
+
     const [isOpen, setIsOpen] = useState(false)
 
     const buttonColored = useRef(false)
     const buttonRef = useRef(null)
 
+    
     const closePopup = () => setIsOpen(false)
 
     const buttonClick = () => {

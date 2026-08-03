@@ -33,12 +33,13 @@ import ContactsPage from "./pages/ContactsPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import FirstContact from "./Components/FirstContact/FirstContact";
 import Footer from "./Components/Footer/Footer";
-
+import Burger from "./Components/Burger/Burger";
 
 
 function App() {
     return(
-        <> 
+        <>  
+            <Burger />
             <main className="main">
                 <FirstContact />
                 <Header />

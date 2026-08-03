@@ -9,7 +9,7 @@
         "image": "/projects/project2.png",
         "stack": "HTML SCSS JavaScript Firebase/FireStore",
         "projectTitle": "Лендинг + Админ-Панель",
-        "projectDesc": "1. Адаптивная ёрстка макета Landing Page из сообщества Figma. ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ2. Реализация Админ-Панели для редактирования содержимого лендинга."
+        "projectDesc": "1. Адаптивная вёрстка макета Landing Page из сообщества Figma. ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ2. Реализация Админ-Панели для редактирования содержимого лендинга."
     },
     {
         "image": "/projects/project3.png",
@@ -19,7 +19,7 @@
     },
     {
         "image": "/projects/project4.png",
-        "stack": "React JSX/SCSS TelegramAPI",
+        "stack": "React JSX/SCSS Python FastAPI",
         "projectTitle": "Вы смотрите этот проект:)",
         "projectDesc": "Сайт-визика на React с реализацией обратной связи."
     },

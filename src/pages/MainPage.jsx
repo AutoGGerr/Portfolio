@@ -11,7 +11,6 @@ import Skills from "../Components/Skills/Skills";
 const MainPage = () => {
     return(
         <main className="main">
-            {/* <FirstContact />*/}
             <Info />
             <Projects />
             <Skills />

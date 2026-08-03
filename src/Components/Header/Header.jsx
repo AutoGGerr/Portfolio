@@ -1,9 +1,13 @@
 import './style.scss'
 import Logo from '../../assets/svg/Logo.svg';
 import NavElem from '../NavElement/NavElement';
+import Burger from '../Burger/Burger';
+import { useRef, useState } from 'react';
 
 const Header = () => {
+    const [isOpen, setIsOpen] = useState(false)
 
+    const burgerIcon = useRef(null)
     
     return(
         <header className='header'>
@@ -16,7 +20,14 @@ const Header = () => {
                     <NavElem text="обо мне" route="/about" className='nav-elem'/>
                 </nav>
 
+                <div className="burger-icon ">
+                    <span className='burger-span'></span>
+                    <span className='burger-span'></span>
+                    <span className='burger-span'></span>
+                </div>
+
             </div>
+            
         </header>
     )
 

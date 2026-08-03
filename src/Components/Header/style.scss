@@ -17,3 +17,51 @@
 .link__active{
     color: #FFFFFF;
 }
+
+.burger-icon{
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.burger-span{
+    z-index: 1000;
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    &:nth-child(2){
+        width: 15px;
+    }  
+
+    &:nth-child(3){
+        width: 12px;
+    }    
+
+    transition: span 0.5s ease-in-out;
+}
+
+.burger-active{
+    justify-content: center;
+
+    & span{
+        position: absolute;
+    }
+
+    & span:nth-child(1){
+        transform: rotate(45deg);
+    }
+    & span:nth-child(2){
+       display: none; 
+    }
+
+    & span:nth-child(3){
+        transform: rotate(-45deg); 
+        width: 20px;  
+    }
+
+}
+

@@ -9,7 +9,7 @@ import './style.scss'
 const AboutMe = () => {
     return(
         <div className="aboutme">
-            <PageTitle title="Обо мне" desc="Кто я?"/>
+            <PageTitle title="обо мне" desc="Кто я?"/>
 
             <div className='aboutme-row'>
                 <div className="aboutme-text">

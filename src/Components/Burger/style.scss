@@ -1,0 +1,30 @@
+@import '../../styles/vars.scss';
+
+.burger{
+    padding: 20px;
+    width: 100vh;
+    position: fixed;
+    height: 100%;
+
+    background-color: $secondBackground;
+    z-index: 20;
+
+    display: none;
+}
+
+.burger-nav{
+    font-size: 24px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.nav-elem.burger-item{
+    font-size: 24px;
+}
+
+.burger-contacts{
+    margin-top: 250px;
+    display: flex;
+    gap: 32px;
+}
