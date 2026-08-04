@@ -17,7 +17,7 @@
         "projectTitle": "Разработка Landing Page",
         "projectDesc": "Разработка адаптивного Landing Page с нуля на ванильном HTML/CSS по просьбе заказщика — диллера автомобилей Mercedes."
     },
-    {
+    { 
         "image": "/projects/project4.png",
         "stack": "React JSX/SCSS Python FastAPI",
         "projectTitle": "Вы смотрите этот проект:)",
