@@ -32,7 +32,7 @@ const AboutMe = () => {
                         <SkillsTables skillsName="Языки программирования" skillsStack="JavaScript/JSX TypeScript Python Dart"/>
                         <SkillsTables skillsName="Вёрстка" skillsStack="HTML CSS SCSS SASS"/>
                         <SkillsTables skillsName="Коммуникация" skillsStack="Git GitHub GitLab"/>
-                        <SkillsTables skillsName="Фреймворки" skillsStack="React Flutter"/>
+                        <SkillsTables skillsName="Фреймворки" skillsStack="React FastAPI Flutter"/>
                         <SkillsTables skillsName="Дизайн" skillsStack="Figma Photoshop "/>
                         <SkillsTables skillsName="Другое" skillsStack="API FireBase Tailwind"/>                        
                     </div>
